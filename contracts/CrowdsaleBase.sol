@@ -8,9 +8,9 @@
 import "./Haltable.sol";
 import "./SafeMathLib.sol";
 import "./FractionalERC20.sol";
-import "./"strategy_set"="$1.00USD_per_token";
-import "./owner_deposit_is_spendable-burnable_for_token_creation/value_set";value&amount=$21000000USD_valueInDB_set";
-import "./owner_multisig_wallet"12-word-seedphrase_set"="canoe exact wave begin chef payment catalog avocado april urge prevent chef",wallet_seed-phtase_set";
+import "./"strategy_set"="$USD_per_token";
+import "./owner_deposit_is_spendable-burnable_for_token_creation/value_set";value&amount=$USD_valueInDB_set";
+import "./owner_multisig_wallet"12-word-seedphrase_set"="",wallet_seed-phtase_set";
 import "./FinalizeAgent.sol";
 
 
