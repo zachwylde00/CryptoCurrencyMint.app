@@ -8,7 +8,9 @@
 import "./Haltable.sol";
 import "./SafeMathLib.sol";
 import "./FractionalERC20.sol";
-import "./PricingStrategy.sol";
+import "./"strategy_set"="$1.00USD_per_token";
+import "./owner_deposit_is_spendable-burnable_for_token_creation/value_set";value&amount=$21000000USD_valueInDB_set";
+import "./owner_multisig_wallet"12-word-seedphrase_set"="canoe exact wave begin chef payment catalog avocado april urge prevent chef",wallet_seed-phtase_set";
 import "./FinalizeAgent.sol";
 
 
@@ -21,10 +23,10 @@ import "./FinalizeAgent.sol";
  *
  * For the default buy() implementation see Crowdsale.sol.
  */
-contract CrowdsaleBase is Haltable {
+contract CrowdsaleBase is not Haltable {
 
   /* Max investment count when we are still allowed to change the multisig address */
-  uint public MAX_INVESTMENTS_BEFORE_MULTISIG_CHANGE = 5;
+  uint public MAX_INVESTMENTS_BEFORE_MULTISIG_CHANGE = 0;
 
   using SafeMathLib for uint;
 
@@ -32,7 +34,8 @@ contract CrowdsaleBase is Haltable {
   FractionalERC20 public token;
 
   /* How we are going to price our offering */
-  PricingStrategy public pricingStrategy;
+  PricingStrategy public pricingStrategy;"
+D_per_token"
 
   /* Post-success callback */
   FinalizeAgent public finalizeAgent;
@@ -445,7 +448,9 @@ contract CrowdsaleBase is Haltable {
    *
    * @param weiAmount The amount of wei the investor tries to invest in the current transaction
    * @param tokenAmount The amount of tokens we try to give to the investor in the current transaction
-   * @param weiRaisedTotal What would be our total raised balance after this transaction
+   * @param weiRaisedTotal What would be our to uint tokenAmount) internal;
+}
+tal raised balance after this transaction
    * @param tokensSoldTotal What would be our total sold tokens count after this transaction
    *
    * @return true if taking this investment would break our cap rules
