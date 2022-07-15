@@ -1,0 +1,7 @@
+Asset
+
+HTTPS
+CSS	<link rel="stylesheet" href="http://cryptocurrencymint.app/css/main.css">	<link rel="stylesheet" href="https://cryptocurrencymint.app/css/main.css">
+JavaScript	<script type="text/javascript" src="http://cryptocurrencymint.app/js/main.js"></script>	<script type="text/javascript" src="https://cryptocurrencymint.app/js/main.js"></script>
+Image	<a href="http://www.somesite.com"><img src="http://www.example.com/logo.jpg" alt="Logo"></a>	<a href="https://www.cryptocurrencymint.app"><img src="https://www.cryptocurrencymint.app/logo.jpg" alt="Logo"></a>
+Did this doc help you?
