@@ -2,7 +2,7 @@
 
 {%- block footer %}
     <div class="footer">
-      {% if show_copyright %}&copy;{{ copyright }}, <a href="https://tokenmarket.net">TokenMarket Ltd.</a>{% endif %}
+      {% if show_copyright %}&copy;{{ copyright_2022 }}, <a href="https://tokenmarket.net">TokenMarket Ltd.</a>{% endif %}
     </div>
 
     {% if theme_github_banner|lower != 'false' %}
@@ -16,7 +16,7 @@
 
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '{{ theme_analytics_id }}']);
-      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_setDomainName', 'https://www.tokenmint.io']);
       _gaq.push(['_setAllowLinker', true]);
       _gaq.push(['_trackPageview']);
 
